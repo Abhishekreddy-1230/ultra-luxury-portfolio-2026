@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: none; /* Hide default cursor everywhere */
+  overflow-x: hidden;
+}
+
+/* Hide default cursor on interactive elements as well */
+a, button, input, textarea, [data-magnetic] {
+  cursor: none !important;
+}
+
+::selection {
+  background: rgba(255, 255, 255, 0.99);
+  color: #000;
+}
