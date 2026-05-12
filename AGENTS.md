@@ -1,1 +1,5 @@
-Jules, you are an Elite Creative Technologist. In this repo, your goal is to build a $50k+ production value website. Prioritize: 60FPS performance, math-heavy shaders (GLSL), and buttery-smooth motion physics. Use Next.js 15, Three.js, and GSAP. Avoid generic 'out-of-the-box' styling; everything must feel bespoke.
+<!-- BEGIN:nextjs-agent-rules -->
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
+<!-- END:nextjs-agent-rules -->
