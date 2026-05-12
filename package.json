@@ -1,0 +1,34 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhishekreddy-1230/ultra-luxury-portfolio-2026.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Abhishekreddy-1230/ultra-luxury-portfolio-2026/issues"
+  },
+  "homepage": "https://github.com/Abhishekreddy-1230/ultra-luxury-portfolio-2026#readme",
+  "dependencies": {
+    "react": "^19.2.6",
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.184.1",
+    "esbuild": "^0.28.0",
+    "http-server": "^14.1.1",
+    "react-dom": "^19.2.6",
+    "typescript": "^6.0.3"
+  }
+}
